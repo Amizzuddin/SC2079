@@ -1,19 +1,20 @@
 {
-    "dockerComposeFile": "../ContainerCompose.yaml",
-    "service": "Development",
-    "remoteUser": "root",
-    "workspaceFolder": "/root/repository_name/src",
-    // "initializeCommand": ".devcontainer/initialize_command.sh",
-    // "postStartCommand": ".devcontainer/post_start_command.sh",
-    "customizations": {
-        "vscode": {
-            "extensions": [
-                "ms-vscode.cpptools",
-                "ms-vscode.cmake-tools",
-                "ms-vscode.cpptools-extension-pack",
-                "ms-python.python",
-                "visualstudioexptteam.vscodeintellicode",
-            ]       
-        }
+  "dockerComposeFile": "../ContainerCompose.yaml",
+  "service": "development",
+  "remoteUser": "root",
+  "workspaceFolder": "/root/repository_name/src",
+  // "initializeCommand": ".devcontainer/initialize_command.sh",
+  // "postStartCommand": ".devcontainer/post_start_command.sh",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode.cpptools",
+        "ms-vscode.cmake-tools",
+        "ms-vscode.cpptools-extension-pack",
+        "ms-python.python",
+        "visualstudioexptteam.vscodeintellicode",
+        "yzhang.markdown-all-in-one"
+      ]
     }
+  }
 }

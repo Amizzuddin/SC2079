@@ -24,7 +24,7 @@ services:
       - $HOME/.ssh:/root/repository_name/.ssh
       - $HOME/.gitconfig:/root/repository_name/.gitconfig
       - $PWD:/root/repository_name/src/
-  
+
   production:
     container_name: repository_name
     image: localhost/repository_name:tag
