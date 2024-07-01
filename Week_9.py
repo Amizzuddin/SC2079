@@ -9,7 +9,7 @@ import requests
 from communication.android import AndroidLink, AndroidMessage
 from communication.stm32 import STMLink
 from consts import SYMBOL_MAP
-from logger import prepare_logger
+from logger import logger
 from settings import API_IP, API_PORT
 
 

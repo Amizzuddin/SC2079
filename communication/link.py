@@ -1,6 +1,6 @@
 from abc import ABC, abstractmethod
 from typing import Optional
-from logger import prepare_logger
+from logger import logger
 
 
 class Link(ABC):

@@ -2,9 +2,9 @@ version: "3.3"
 
 services:
   development:
-    container_name: repository_name_dev
-    image: localhost/repository_name:tag
-    working_dir: /root/repository_name/src
+    container_name: sc2079_dev
+    image: sc2079:latest
+    working_dir: /root/sc2079
     network_mode: "host"
     privileged: true
     stdin_open: true
@@ -19,13 +19,13 @@ services:
       DISPLAY: $DISPLAY
       ROS_LOCALHOST_ONLY: 1
     volumes:
-      - /usr/local/share/ca-certificates:/usr/local/share/ca-certificates
-      - /etc/ssl/certs:/etc/ssl/certs
-      - $HOME/.ssh:/root/repository_name/.ssh
-      - $HOME/.gitconfig:/root/repository_name/.gitconfig
-      - $PWD:/root/repository_name/src/
+      # - /usr/local/share/ca-certificates:/usr/local/share/ca-certificates
+      # - /etc/ssl/certs:/etc/ssl/certs
+      # - $HOME/.ssh:/root/sc2079/.ssh
+      # - $HOME/.gitconfig:/root/sc2079/.gitconfig
+      - .:/root/sc2079/
 
-  production:
-    container_name: repository_name
-    image: localhost/repository_name:tag
-    network_mode: "host"
+  # production:
+  #   container_name: sc2079
+  #   image: localhost/sc2079:tag
+  #   network_mode: "host"

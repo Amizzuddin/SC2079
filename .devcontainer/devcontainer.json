@@ -2,7 +2,7 @@
   "dockerComposeFile": "../ContainerCompose.yaml",
   "service": "development",
   "remoteUser": "root",
-  "workspaceFolder": "/root/repository_name/src",
+  "workspaceFolder": "/root/sc2079",
   // "initializeCommand": ".devcontainer/initialize_command.sh",
   // "postStartCommand": ".devcontainer/post_start_command.sh",
   "customizations": {

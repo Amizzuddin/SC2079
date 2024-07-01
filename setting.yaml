@@ -1,0 +1,14 @@
+
+base:
+  port: "/dev/serial/by-id/usb-Silicon_Labs_CP2102_USB_to_UART_Bridge_Controller_0002-if00-port0" 
+  baud_rate: 115200
+
+gui:
+  address: "192.168.2.11"
+  port: 5000
+
+navigation:
+  enable_big_turn: false
+
+perception:
+  port: ""
