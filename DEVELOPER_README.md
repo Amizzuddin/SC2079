@@ -21,7 +21,7 @@ Software Engineering
 
 Making assumption that you will be working on Windows OS, You will require to download the following tools to get started
 
-1. [Visual Studio Code](https://code.visualstudio.com/download): IDE that supports devcontainer
+1. [Visual Studio Code](https://code.visualstudio.com/download): IDE that supports devcontainer. Please make sure you install Version 1.89.1
 2. [Docker]([doc](https://www.docker.com/products/docker-desktop/)): Development will be done in devcontainer, The reason for this approach so all of us will be using the same tools. In addition, I did not upload the docker image on docker hub registry because I want to keep the image as private. In other words you are required to build the image on your local machine
 3. [WSL2](https://learn.microsoft.com/en-us/windows/wsl/install): For convenience, I strongly recommend that you have WSL2 installed on your windows machine as I am running the same setup as well. This way I can support if you have difficulties in getting things setup. More importantly, this will reduce the headache to setup MS SQL database, GIT related actions and etc.
 

@@ -8,9 +8,6 @@
   "customizations": {
     "vscode": {
       "extensions": [
-        "ms-vscode.cpptools",
-        "ms-vscode.cmake-tools",
-        "ms-vscode.cpptools-extension-pack",
         "ms-python.python",
         "visualstudioexptteam.vscodeintellicode",
         "yzhang.markdown-all-in-one"
